@@ -110,6 +110,6 @@ const mcq = [
   
   btn.addEventListener("click", () => {
     displayQuestion(currentQuestionIndex);
-    btn.style.display = 'none'; // Hide the start button after the quiz starts
+    btn.style.display = 'none'; 
   });
   
